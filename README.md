@@ -4,7 +4,7 @@
   <a href="https://react-portfolio-zeta-red.vercel.app/" target="_blank">pruthvi.tech</a>
 </h2>
 
-## TL;DR
+## TLDR
 
 You can fork this repo to modify and make changes of your own. Please give me proper credit. Thanks!
 
@@ -18,7 +18,7 @@ This project was built using these technologies.
 - Node.js
 - Express.js
 - CSS3
-- VsCode
+- Vs Code
 - Vercel
 
 ## Features
