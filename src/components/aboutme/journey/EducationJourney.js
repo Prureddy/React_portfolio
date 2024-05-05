@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
+import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import SchoolIcon from "@mui/icons-material/School";
 import { Link } from "react-router-dom";
 import StarIcon from "@mui/icons-material/Star";
@@ -31,60 +28,42 @@ function EducationJourney() {
         </Flip>
       </div>
       <VerticalTimeline>
+        {/* Your education details in reverse order */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2004 - 2014"
+          contentArrowStyle={{ borderRight: "7px solid rgb(78 22 112)" }}
+          date="2021 - 2025"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<SchoolIcon />}
         >
-          <h4 className="vertical-timeline-element-title">
-            SECONDARY SCHOOL CERTIFICATE
-          </h4>
-          <h4 className="vertical-timeline-element-subtitle mt-2">
-            BOF High School, Gazipur
-          </h4>
-          <p>
-            Studied here from Class 1 to 10th as a part of secondary school
-            Certificate and gain GPA 5 in my SSC Examination.
-          </p>
+          <h4 className="vertical-timeline-element-title">Bachelor of Technology</h4>
+          <h4 className="vertical-timeline-element-subtitle mt-2">DAYANANDA SAGAR UNIVERSITY, Bengaluru</h4>
+          <p>Currently pursuing Bachelor of Technology in Computer Science and Technology at DAYANANDA SAGAR UNIVERSITY, Bengaluru with a current CGPA of 7.56.</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2014 - 2018"
+          contentArrowStyle={{ borderRight: "7px solid rgb(78 22 112)" }}
+          date="2019 - 2021"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<SchoolIcon />}
         >
-          <h4 className="vertical-timeline-element-title">
-            DIPLOMA IN ENGINEERING
-          </h4>
-          <h4 className="vertical-timeline-element-subtitle mt-2">
-            Dhaka Polytechnic Institute, Dhaka
-          </h4>
-          <p>
-            Studied Diploma in Computer Technology from Dhaka Polytechnic
-            institute and gain CGPA 2.98.
-          </p>
+          <h4 className="vertical-timeline-element-title">PUC</h4>
+          <h4 className="vertical-timeline-element-subtitle mt-2">S R PU COLLEGE, Hiriyur</h4>
+          <p>Studied Pre-University Course with Physics, Chemistry, Mathematics, and Biology (PCMB) at S R PU COLLEGE, Hiriyur and achieved a percentage of 96%.</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2019 - 2023"
+          contentArrowStyle={{ borderRight: "7px solid rgb(78 22 112)" }}
+          date="2016 - 2019"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<SchoolIcon />}
         >
-          <h4 className="vertical-timeline-element-title">GRADUATION</h4>
-          <h4 className="vertical-timeline-element-subtitle mt-2">
-            Sonargaon University, Dhaka
-          </h4>
-          <p>
-            Studied Bachelor of Science degree in Computer Science and
-            Engineering field from Sonargaon University and gain CGPA 3.44.
-          </p>
+          <h4 className="vertical-timeline-element-title">SSLC</h4>
+          <h4 className="vertical-timeline-element-subtitle mt-2">SJPN RURAL HIGH SCHOOL, Mallapura</h4>
+          <p>Studied for Secondary School Leaving Certificate from SJPN RURAL HIGH SCHOOL, Mallapura and achieved a percentage of 87%.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
